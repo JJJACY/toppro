@@ -62,53 +62,46 @@
   background-color: #58a673;
   color: #fff;
 }
-.mainer-container .banner {
-  height: 645px;
+.banner-section {
   background: #3c3d46;
+  padding-bottom: 84px;
 }
-.mainer-container .banner .banner-container {
+.banner-section .banner-container {
   width: 1000px;
   margin: 0 auto;
   text-align: center;
 }
-.mainer-container .banner .banner-container .quote-title {
+.banner-section .banner-container .quote-title {
   display: inline-block;
   margin-top: 57px;
   font-size: 16px;
   color: #a0aeb9;
 }
-.mainer-container .banner .banner-container .title {
+.banner-section .banner-container .banner-title {
   margin-top: 36px;
   font-size: 31px;
   font-weight: 400;
   color: #fff;
 }
-.mainer-container .banner .banner-container .sub-title {
-  display: inline-block;
-  margin-top: 45px;
-  margin-bottom: 15px;
+.banner-section .banner-container .banner-title-decription {
+  padding-top: 36px;
+  line-height: 30px;
   font-size: 14px;
   color: #58a673;
 }
-.mainer-container .banner .banner-container .sub-title-second {
-  font-size: 14px;
-  color: #58a673;
-}
-.mainer-container .banner .banner-container .nice-income-container {
+.banner-section .banner-container .banner-card {
   display: flex;
+  justify-content: space-around;
   margin-top: 86px;
 }
-.mainer-container .banner .banner-container .nice-income-container .nice {
+.banner-section .banner-container .banner-card .banner-card-item {
   font-size: 18px;
   color: #64646c;
 }
-.mainer-container .banner .banner-container .nice-income-container .nice .nice-content {
+.banner-section .banner-container .banner-card .banner-card-item .banner-card-title {
   margin-top: 27px;
 }
-.mainer-container .banner .banner-container .nice-income-container .nice:nth-child(2) {
-  flex: 1;
-}
-.mainer-container .banner .banner-container .partner {
+.banner-section .banner-container .banner-btn {
   display: inline-block;
   width: 238px;
   margin-top: 67px;
@@ -117,95 +110,99 @@
   line-height: 51px;
   font-size: 22px;
   color: #58a567;
+  transition: all .2s;
 }
-.mainer-container .mechanism-section {
+.banner-section .banner-container .banner-btn:hover {
+  opacity: 0.4;
+}
+.mechanism-section {
   height: 590px;
   background: #3a405c;
 }
-.mainer-container .mechanism-section .mechanism-container {
+.mechanism-section .mechanism-container {
   width: 1000px;
   height: 590px;
   margin: 0 auto;
   text-align: center;
 }
-.mainer-container .mechanism-section .mechanism-container .mechanism-title {
+.mechanism-section .mechanism-container .mechanism-title {
   display: inline-block;
   margin-top: 74px;
   margin-bottom: 27px;
   font-size: 31px;
   color: #fff;
 }
-.mainer-container .mechanism-section .mechanism-container .mechanism-sub-title {
+.mechanism-section .mechanism-container .mechanism-sub-title {
   font-size: 17px;
   color: #b1b1b5;
   margin-bottom: 31px;
 }
-.mainer-container .choose-section {
+.choose-section {
   height: 800px;
   background: #e1e6ec;
 }
-.mainer-container .choose-section .choose-container {
+.choose-section .choose-container {
   width: 1000px;
   margin: 0 auto;
   text-align: center;
 }
-.mainer-container .choose-section .choose-container .choose-title {
+.choose-section .choose-container .choose-title {
   display: inline-block;
   margin-top: 74px;
   font-size: 31px;
 }
-.mainer-container .choose-section .choose-container .choose-sub-title {
+.choose-section .choose-container .choose-sub-title {
   margin-top: 27px;
   margin-bottom: 59px;
   font-size: 17px;
   color: #ffffff;
 }
-.mainer-container .choose-section .choose-container .list {
+.choose-section .choose-container .list {
   display: inline-block;
   border: 2px #fff solid;
   width: 1000px;
   height: 500px;
   margin: 0 auto;
 }
-.mainer-container .choose-section .choose-container .list .list-head {
+.choose-section .choose-container .list .list-head {
   height: 66px;
   border-bottom: 2px #fff solid;
 }
-.mainer-container .choose-section .choose-container .list .list-head .list-head-item {
+.choose-section .choose-container .list .list-head .list-head-item {
   display: flex;
 }
-.mainer-container .choose-section .choose-container .list .list-head .list-head-item .list-head-section:nth-of-type(1) {
+.choose-section .choose-container .list .list-head .list-head-item .list-head-section:nth-of-type(1) {
   flex: 1;
   width: 303px;
 }
-.mainer-container .choose-section .choose-container .list .list-head .list-head-item .list-head-section {
+.choose-section .choose-container .list .list-head .list-head-item .list-head-section {
   width: 231px;
   height: 66px;
   border-right: 2px #fff solid;
 }
-.mainer-container .choose-section .choose-container .list .list-head .list-head-item .list-head-section:nth-of-type(4) {
+.choose-section .choose-container .list .list-head .list-head-item .list-head-section:nth-of-type(4) {
   border-right: 0px;
 }
-.mainer-container .choose-section .choose-container .list .list-body {
+.choose-section .choose-container .list .list-body {
   display: inline-block;
   width: 996px;
   height: 438px;
 }
-.mainer-container .choose-section .choose-container .list .list-body .list-body-item {
+.choose-section .choose-container .list .list-body .list-body-item {
   display: flex;
   line-height: 66px;
 }
-.mainer-container .choose-section .choose-container .list .list-body .list-body-section {
+.choose-section .choose-container .list .list-body .list-body-section {
   display: inline-block;
   width: 231px;
   height: 72px;
   border-right: 2px solid #fff;
   border-bottom: 2px solid #fff;
 }
-.mainer-container .choose-section .choose-container .list .list-body .list-body-section:nth-of-type(1) {
+.choose-section .choose-container .list .list-body .list-body-section:nth-of-type(1) {
   width: 303px;
   text-align: left;
 }
-.mainer-container .choose-section .choose-container .list .list-body .list-body-section:nth-of-type(4) {
+.choose-section .choose-container .list .list-body .list-body-section:nth-of-type(4) {
   border-right: 0px;
 }

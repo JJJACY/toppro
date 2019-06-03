@@ -170,7 +170,7 @@
 }
 .mechanism-sub-title{
 	font-size: 17px;
-	color: #a0aeb9;
+	color: #b1b1b5;
 }
 .team-container{
 	margin-top: 31px;
@@ -196,10 +196,10 @@
 	margin-top: 27px;
 	margin-bottom: 59px;
 	font-size: 17px;
-	color: #a0aeb9;
+	color: #ffffff;
 }
 .choose table{
-	display: inline-block;
+  display: inline-block;
   border: 1px #fff solid;
   width: 1000px;
   height: 500px;
@@ -354,18 +354,18 @@
 .tell-demand-title{
 	margin-bottom: 14px;
 	font-size: 16px;
-	color: #62bd82;
+	color: #58a673;
 }
 .tell-demand-sub-title{
 	font-size: 12px;
-	color: #a0aeb9;
+	color: #999999;
 }
 .introduce-content{
 	display: inline-block;
 	width: 550px;
 	font-size: 13px;
 	text-align: left;
-	color: #666;
+	color: #3f464b;
 	margin-top: 14px;
 	padding-left: 14px;
 }
@@ -414,11 +414,11 @@
 	width: 120px;
 	height: 39px;
 	font-size: 16px;
-	color: #4f505a;
+	color: #3f464b;
 }
 .team-project span:hover{
-	color: #4c715f;
-	border-bottom: 1px #4c715f solid;
+	color: #58a673;
+	border-bottom: 1px #58a673 solid;
 }
 .batter-team{
 	text-align: left;
@@ -434,13 +434,13 @@
 	display: inline-block;
 	margin-bottom: 25px;
 	font-size: 28px;
-	color: #8b8b91;
+	color: #ffffff;
 }
 .batter-team-sub-title{
 	display: inline-block;
 	width: 602px;
 	font-size: 14px;
-    color: #51525b;
+    color: #8a8b91;
 }
 .line-container{
 	display: inline-block;
@@ -460,7 +460,7 @@
 	margin-top: 29px;
 	vertical-align: top;
 	font-size: 14px;
-	color: #65666e;
+	color: #ffffff;
 }
 .batter-team-icon{
 	display: inline-block;
@@ -470,9 +470,9 @@
 	display: inline-block;
     width: 158px;
     height: 58px;
-    border: 1px solid #425351;
+    border: 1px solid #58a673;
     border-radius: 4px;
-    color: #425351;
+    color: #58a673;
     margin-top: 54px;
     font-size: 18px;
     text-align: center;
@@ -588,7 +588,7 @@
 	margin-bottom: 18px;
 	font-size: 15px;
 	text-decoration: none;
-	color: #565467;
+	color: #ffffff;
 }
 .little-block{
 	width: 33px;
@@ -598,7 +598,7 @@
 .tropro-content{
 	margin-top: 19px;
     font-size: 14px;
-    color: #464357;
+    color: #b1b1b5;
 }
 .footer-nav-container{
 	display: inline-block;
@@ -612,7 +612,7 @@
 .footer-nav{
     display: inline-block;
     font-size: 15px;
-    color: #767583;
+    color: #ffffff;
     text-decoration: none;
     margin-bottom: 18px;
 }
@@ -625,12 +625,12 @@
 	display: block;
     margin-top: 19px;
     text-decoration: none;
-    color: #4f4d5f;
+    color: #b1b1b5;
 }
 .about-us{
 	display: block;
     margin-top: 14px;
-    color: #464457;
+    color: #b1b1b5;
     text-decoration: none;
 }
 .touch-us-container{
@@ -644,7 +644,7 @@
 	margin-bottom: 18px;
 	text-decoration: none;
 	font-size: 15px;
-	color: #777584;
+	color: #ffffff;
 }
 .petty-block{
 	width: 33px;
@@ -658,7 +658,7 @@
 .tell p{
 	margin-bottom: 14px;
 	font-size: 14px;
-	color: #464457;
+	color: #b1b1b5;
 }
 .touch-icon{
 	font-size: 0;

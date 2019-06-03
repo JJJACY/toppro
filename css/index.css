@@ -62,46 +62,45 @@
   background-color: #58a673;
   color: #fff;
 }
-.banner-section {
-  background: #3c3d46;
-  padding-bottom: 84px;
-}
-.banner-section .banner-container {
+.container {
   width: 1000px;
   margin: 0 auto;
+}
+.banner-section {
+  background: #3c3d46;
+  padding-top: 57px;
+  padding-bottom: 84px;
   text-align: center;
 }
-.banner-section .banner-container .quote-title {
-  display: inline-block;
-  margin-top: 57px;
+.banner-section .quote-title {
   font-size: 16px;
   color: #a0aeb9;
 }
-.banner-section .banner-container .banner-title {
+.banner-section .banner-title {
   margin-top: 36px;
   font-size: 31px;
   font-weight: 400;
   color: #fff;
 }
-.banner-section .banner-container .banner-title-decription {
-  padding-top: 36px;
+.banner-section .banner-title-decription {
+  margin-top: 36px;
   line-height: 30px;
   font-size: 14px;
   color: #58a673;
 }
-.banner-section .banner-container .banner-card {
+.banner-section .banner-card {
   display: flex;
   justify-content: space-around;
   margin-top: 86px;
 }
-.banner-section .banner-container .banner-card .banner-card-item {
+.banner-section .banner-card .banner-card-item {
   font-size: 18px;
   color: #64646c;
 }
-.banner-section .banner-container .banner-card .banner-card-item .banner-card-title {
+.banner-section .banner-card .banner-card-item .banner-card-title {
   margin-top: 27px;
 }
-.banner-section .banner-container .banner-btn {
+.banner-section .banner-btn {
   display: inline-block;
   width: 238px;
   margin-top: 67px;
@@ -112,30 +111,28 @@
   color: #58a567;
   transition: all .2s;
 }
-.banner-section .banner-container .banner-btn:hover {
+.banner-section .banner-btn:hover {
   opacity: 0.4;
 }
 .mechanism-section {
-  height: 590px;
+  padding-top: 74px;
+  padding-bottom: 68px;
   background: #3a405c;
-}
-.mechanism-section .mechanism-container {
-  width: 1000px;
-  height: 590px;
-  margin: 0 auto;
   text-align: center;
 }
-.mechanism-section .mechanism-container .mechanism-title {
-  display: inline-block;
-  margin-top: 74px;
+.mechanism-section .mechanism-title {
   margin-bottom: 27px;
   font-size: 31px;
   color: #fff;
 }
-.mechanism-section .mechanism-container .mechanism-sub-title {
+.mechanism-section .mechanism-sub-title {
+  margin-bottom: 31px;
   font-size: 17px;
   color: #b1b1b5;
-  margin-bottom: 31px;
+}
+.mechanism-section .mechanism-team-container {
+  width: 1000px;
+  height: 343px;
 }
 .choose-section {
   height: 800px;

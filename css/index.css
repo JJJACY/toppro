@@ -130,76 +130,48 @@
   font-size: 17px;
   color: #b1b1b5;
 }
-.mechanism-section .mechanism-team-container {
+.mechanism-section .mechanism-image {
   width: 1000px;
   height: 343px;
 }
 .choose-section {
-  height: 800px;
   background: #e1e6ec;
-}
-.choose-section .choose-container {
-  width: 1000px;
-  margin: 0 auto;
   text-align: center;
 }
-.choose-section .choose-container .choose-title {
+.choose-section .choose-title {
   display: inline-block;
   margin-top: 74px;
   font-size: 31px;
 }
-.choose-section .choose-container .choose-sub-title {
+.choose-section .choose-sub-title {
   margin-top: 27px;
   margin-bottom: 59px;
   font-size: 17px;
-  color: #ffffff;
+  color: #999;
 }
-.choose-section .choose-container .list {
-  display: inline-block;
+.choose-section .choose-table {
   border: 2px #fff solid;
-  width: 1000px;
-  height: 500px;
-  margin: 0 auto;
 }
-.choose-section .choose-container .list .list-head {
-  height: 66px;
-  border-bottom: 2px #fff solid;
-}
-.choose-section .choose-container .list .list-head .list-head-item {
+.choose-section .choose-table-tr {
   display: flex;
 }
-.choose-section .choose-container .list .list-head .list-head-item .list-head-section:nth-of-type(1) {
+.choose-section .choose-table-tr .choose-table-th:nth-of-type(1) {
   flex: 1;
   width: 303px;
 }
-.choose-section .choose-container .list .list-head .list-head-item .list-head-section {
-  width: 231px;
-  height: 66px;
-  border-right: 2px #fff solid;
-}
-.choose-section .choose-container .list .list-head .list-head-item .list-head-section:nth-of-type(4) {
-  border-right: 0px;
-}
-.choose-section .choose-container .list .list-body {
-  display: inline-block;
-  width: 996px;
-  height: 438px;
-}
-.choose-section .choose-container .list .list-body .list-body-item {
-  display: flex;
-  line-height: 66px;
-}
-.choose-section .choose-container .list .list-body .list-body-section {
-  display: inline-block;
+.choose-section .choose-table-tr .choose-table-th {
   width: 231px;
   height: 72px;
-  border-right: 2px solid #fff;
-  border-bottom: 2px solid #fff;
+  border-right: 2px #fff solid;
+  border-bottom: 2px #fff solid;
 }
-.choose-section .choose-container .list .list-body .list-body-section:nth-of-type(1) {
-  width: 303px;
-  text-align: left;
+.choose-section .choose-table-tr:nth-of-type(1) {
+  height: 66px;
 }
-.choose-section .choose-container .list .list-body .list-body-section:nth-of-type(4) {
-  border-right: 0px;
+.choose-section .choose-table-tr:nth-of-type(1) .choose-table-th {
+  height: 72px;
+}
+.choose-section .choose-table-tr {
+  display: flex;
+  line-height: 66px;
 }

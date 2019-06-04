@@ -388,6 +388,8 @@
 }
 .faq-section .faq-item .faq-item-question {
   margin-bottom: 20px;
+  font-size: 14px;
+  color: #3f464b;
 }
 .faq-section .faq-item .faq-item-question::before {
   content: 'Q';
@@ -395,6 +397,7 @@
   width: 20px;
   height: 20px;
   margin-right: 8px;
+  line-height: 20px;
   text-align: center;
   background: #58a673;
   font-size: 14px;
@@ -405,6 +408,8 @@
   padding-left: 33px;
   padding-bottom: 25px;
   border-bottom: 1px #f2f4f6 solid;
+  font-size: 14px;
+  color: #667080;
 }
 .faq-section .faq-item .faq-item-answer::before {
   content: 'A';
@@ -412,13 +417,14 @@
   width: 20px;
   height: 20px;
   margin-right: 9px;
+  line-height: 20px;
   text-align: center;
   background: #58a673;
   font-size: 14px;
   color: #fff;
   border-radius: 4px;
   position: absolute;
-  top: 46px;
+  top: 45px;
   left: 0px;
 }
 .page-footer {

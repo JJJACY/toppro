@@ -244,15 +244,20 @@
   .demand-item{
     display: flex;
     margin-bottom: 50px;
-    .demand-content{
+    .demand-item-left{
         text-align: left;
         margin-right: 140px;
-        .your-demand{
+        .demand-item-flex{
+          display: flex;
           padding-bottom:22px;
           border-bottom: 1px solid #999;
         }
     }
-    .order{
+    .demand-item-image{
+      width: 308px;
+      height: 198px;
+    }
+    .demand-item-number{
       display: inline-block;
       margin-right: 14px;
       width: 64px;
@@ -266,30 +271,235 @@
       border-radius: 50%;
       color: #fff;
     }
-    .tell-demand{
-      display: inline-block;
-      width: 452px;
-      height: 62px;
-      text-align: left;
-      margin-top: 2px;
+    .demand-item-info{
+      flex: 1;
     }
-    .tell-demand-title{
+    .demand-item-title{
       margin-bottom: 13px;
       font-size: 16px;
       color: #58a673;
     }
-    .tell-demand-sub-title{
+    .demand-item-description{
       font-size: 12px;
       color: #999999;
     }
-    .introduce-content{
-      // display: inline-block;
+    .demand-item-content{
       width: 550px;
       font-size: 13px;
       text-align: left;
       color: #3f464b;
       margin-top: 14px;
       padding-left: 14px;
+    }
+  }
+}
+.coop-way-section{
+  padding-top:69px;
+  padding-bottom:100px;
+  text-align: center;
+  background: #3d3e48;
+  .coop-way-title{
+    margin-bottom: 27px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .coop-way-sub-title{
+    margin-bottom: 55px;
+    font-size: 18px;
+    color: #8a8b91;
+  }
+  .coop-team-project{
+    display: flex;
+    margin-bottom: 91px;
+    width: 1000px;
+    height: 39px;
+    border-bottom: 1px #a0aeb9 solid;
+    font-size: 16px;
+    color: #8a8b91;
+    justify-content: center;
+    .coop-team-project-item{
+      width: 120px;
+      text-align: center;
+      &.active{
+        color: #62bd82;
+        border-bottom:2px #62bd82 solid;
+      }
+      &:hover{
+        color: #62bd82;
+        border-bottom:2px #62bd82 solid;
+      }
+    }
+  }
+  .coop-batter-team{
+    display: flex;
+    text-align: left;
+  }
+  .coop-team-title{
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #ffffff;
+  }
+  .coop-team-sub-title{
+    font-size: 14px;
+    color: #8a8b91;
+  }
+  .line{
+    display: block;
+    margin-top: 34px;
+    margin-bottom:29px;
+    width: 33px;
+    height: 4px;
+    background: #4f5058;
+  }
+  .coop-team-main-content{
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .coop-learn-more{
+    display: inline-block;
+    width: 158px;
+    height: 58px;
+    border: 1px solid #58a673;
+    border-radius: 4px;
+    color: #58a673;
+    margin-top: 54px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 58px;
+    text-decoration: none;
+  }
+}
+.faq-section{
+  padding-top: 78px;
+  padding-bottom: 50px;
+  text-align: center;
+  .faq-title{
+    margin-bottom: 35px;
+    font-size: 32px;
+    font-weight: 400;
+  }
+  .faq-sub-title{
+    margin-bottom: 61px;
+    font-size: 18px;
+    color: #a0aeb9;
+  }
+  .faq-item{
+    position: relative;
+    padding-bottom:24px;
+    text-align: left;
+    &:last-child .faq-item-answer{
+      border-bottom: none;
+    }
+    .faq-item-question{
+      margin-bottom: 20px;
+    }
+    .faq-item-question::before{
+      content: 'Q';
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+      text-align: center;
+      background: #58a673;
+      font-size: 14px;
+      color: #fff;
+      border-radius: 4px;
+    }
+    .faq-item-answer{
+      padding-left:33px;
+      padding-bottom: 25px;
+      border-bottom: 1px #f2f4f6 solid;
+    }
+    .faq-item-answer::before{
+      content: 'A';
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-right: 9px;
+      text-align: center;
+      background: #58a673;
+      font-size: 14px;
+      color: #fff;
+      border-radius: 4px;
+      position: absolute;
+      top: 46px;
+      left: 0px;
+    }
+  }
+}
+.page-footer{
+  padding-top: 90px;
+  padding-bottom: 75px;
+  background: #1d1a33;
+  .footer-container{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    .footer-icon-container{
+      height: 31px;
+      margin-right:164px;
+    }
+    .about-toppro-container{
+      width: 224px;
+      margin-right:68px;
+      .about-toppro{
+        font-size: 15px;
+        color: #fff;
+      }
+      .little-block{
+        width: 33px;
+        height: 4px;
+        margin-top: 18px;
+        margin-bottom: 19px;
+        background: #282441;
+      }
+      .toppro-content{
+        font-size: 15px;
+        color: #b1b1b5;
+      }
+    }
+    .footer-nav{
+      display: flex;
+      flex-direction: column;
+      margin-right: 99px;
+      .footer-nav-link{
+        font-size: 15px;
+        color: #ffffff;
+      }
+      .small-block{
+        width: 14px;
+        height: 4px;
+        margin-top: 18px;
+        margin-bottom: 20px;
+        background: #282441;
+      }
+      .footer-nav-link-item{
+        margin-bottom: 14px;
+        font-size: 14px;
+        color: #b1b1b5;
+      }
+    }
+    .touch-us-container{
+      .touch-us-link{
+        font-size: 15px;
+        color: #fff;
+      }
+      .petty-block{
+        width: 33px;
+        height: 4px;
+        margin-top: 18px;
+        margin-bottom: 19px;
+        background: #282441;
+      }
+      .tell-item{
+        margin-bottom: 14px;
+        font-size: 14px;
+        color: #b1b1b5;
+      }
+      .touch-icon-image{
+        margin-right: 16px;
+      }
     }
   }
 }

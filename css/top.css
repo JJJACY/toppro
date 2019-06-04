@@ -332,6 +332,7 @@
 }
 .order{
 	display: inline-block;
+	margin-right: 14px;
 	width: 64px;
 	height: 64px;
 	line-height: 64px;
@@ -339,7 +340,6 @@
 	font-weight: 300;
 	text-align: center;
 	vertical-align: top;
-	margin-right: 14px;
 	background: #62bd82;
 	border-radius: 50%;
 	color: #fff;

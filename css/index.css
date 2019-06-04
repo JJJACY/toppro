@@ -152,42 +152,53 @@
 .choose-section .choose-table {
   display: block;
   border: 2px #fff solid;
+  border-bottom: none;
   border-radius: 4px;
 }
-.choose-section .choose-table .choose-table-tr {
+.choose-section .choose-table .choose-head .choose-table-tr {
   display: flex;
   height: 66px;
   line-height: 66px;
 }
-.choose-section .choose-table .choose-table-tr .choose-table-th {
+.choose-section .choose-table .choose-head .choose-table-tr .choose-table-th {
   width: 231px;
   border-right: 2px #fff solid;
   border-bottom: 2px #fff solid;
+  background: #dfe5f2;
 }
-.choose-section .choose-table .choose-table-tr .choose-table-th:first-child {
-  flex: 1;
+.choose-section .choose-table .choose-head .choose-table-tr .choose-table-th:first-child {
   width: 303px;
+  background: #f4f6f8;
 }
-.choose-section .choose-table .choose-table-tr .choose-table-th:last-child {
+.choose-section .choose-table .choose-head .choose-table-tr .choose-table-th:last-child {
   border-right: none;
 }
-.choose-section .choose-table .choose-table-tr .choose-table-td {
+.choose-section .choose-table .choose-body .choose-table-tr {
+  display: flex;
+  height: 72px;
+  line-height: 72px;
+}
+.choose-section .choose-table .choose-body .choose-table-tr .choose-table-td {
   width: 231px;
   border-right: 2px #fff solid;
   border-bottom: 2px #fff solid;
-  color: #667080;
 }
-.choose-section .choose-table .choose-table-tr .choose-table-td:first-child {
-  flex: 1;
+.choose-section .choose-table .choose-body .choose-table-tr .choose-table-td:first-child {
   width: 303px;
   text-align: left;
+  font-weight: 700 ;
   color: #305798;
-  font-size: 15px;
+  background: #f4f6f8;
 }
-.choose-section .choose-table .choose-table-tr .choose-table-td:last-child {
+.choose-section .choose-table .choose-body .choose-table-tr .choose-table-td:last-child {
   border-right: none;
 }
-.choose-section .choose-table .choose-table-tr .choose-table-td .number {
+.choose-section .choose-table .choose-body .choose-table-tr .choose-table-td .choose-image {
+  display: inline-block;
+  vertical-align: top;
+  transform: translateY(50%);
+}
+.choose-section .choose-table .number {
   display: inline-block;
   margin-left: 29px;
   margin-right: 12px;
@@ -202,6 +213,9 @@
   font-size: 13px;
   color: #305798;
 }
-.choose-section .choose-table:last-child {
-  border-bottom: none;
+.choose-section .choose-table .color-green {
+  background: #cdecd8;
+}
+.choose-section .choose-table .color-red {
+  background: #ebc5ca;
 }

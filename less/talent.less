@@ -132,26 +132,47 @@
   }
   .environment-content{
     display: flex;
+    .environment-content-left{
+      .environment-content-left-top{
+        width: 550px;
+        height: 268px;
+        border-radius: 3px;
+        margin-bottom: 5px;
+        background: #fff;
+      }
+      .environment-content-left-bottom{
+        width: 550px;
+        height: 268px;
+        border-radius: 3px;
+        background: #fff;
+      }
+      .environment-left-image{
+        transform: translateY(20%);
+      }
+    }
     .environment-content-middle{
-      height: 540px;
       margin-left:5px;
       margin-right: 6px;
       justify-content: space-between;
-      border-radius: 3px;
-      background: #fff;
       .environment-content-middle-top{
         width: 244px;
         height: 174px;
+        border-radius: 3px;
+        background: #fff;
       }
       .environment-content-middle-center{
         width: 244px;
-        height: 176px;
-        border-top:1px #a0aeb9 solid;
-        border-bottom:1px #a0aeb9 solid; 
+        height: 171px;
+        border-radius: 3px;
+        margin-top: 6px;
+        margin-bottom: 5px;
+        background: #fff;
       }
       .environment-content-middle-bottom{
         width: 244px;
-        height: 188px;
+        height: 184px;
+        border-radius: 3px;
+        background: #fff;
       }
     }
     .environment-content-right-top{
@@ -173,6 +194,58 @@
       height: 184px;
       border-radius: 3px;
       background: #fff;
+    }
+  }
+}
+.join-section{
+  padding-top:76px;
+  padding-bottom:30px;
+  text-align: center;
+  .join-title{
+    margin-bottom: 34px;
+    font-size: 32px;
+    color: #404c5f;
+  }
+  .join-title-description{
+    margin-bottom: 55px;
+    font-size: 18px;
+    color: #a0aeb9;
+  }
+  .join-content-item{
+    display: flex;
+    margin-bottom: 54px;
+    text-align: left;
+    .join-content-item-left{
+      display: flex;
+    }
+    .join-content-item-right{
+      width: 313px;
+      height: 196px;
+      margin-left: 156px;
+    }
+    .join-content-item-index{
+      display: inline-block;
+      width: 65px;
+      height: 65px;
+      border-radius: 50%;
+      margin-right:26px;
+      line-height: 65px;
+      text-align: center;
+      font-size: 32px;
+      background: #62bd82;
+      color: #fff;
+    }
+    .join-item-content{
+      width: 440px;
+      .join-item-content-title{
+        margin-bottom: 25px;
+        font-size: 28px;
+        color: #404c5f;
+      }
+      .join-item-description{
+        font-size: 16px;
+        color: #3f464b;
+      }
     }
   }
 }

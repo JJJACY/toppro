@@ -238,7 +238,7 @@
   width: 440px;
 }
 .join-section .join-content-item .join-item-content .join-item-content-title {
-  margin-bottom: 25px;
+  line-height: 65px;
   font-size: 28px;
   color: #404c5f;
 }
@@ -284,4 +284,132 @@
   margin-top: 11px;
   font-size: 16px;
   color: #6c6d7a;
+}
+.community-section {
+  padding-top: 74px;
+  padding-bottom: 70px;
+  text-align: center;
+  background: #f6f8fa;
+}
+.community-section .community-title {
+  margin-bottom: 28px;
+  font-size: 32px;
+  color: #404c5f;
+}
+.community-section .community-title-description {
+  margin-bottom: 55px;
+  font-size: 18px;
+  color: #a0aeb9;
+}
+.join-us-section {
+  padding-top: 74px;
+  padding-bottom: 90px;
+  text-align: center;
+}
+.join-us-section .join-us-title {
+  margin-bottom: 31px;
+  font-size: 32px;
+  color: #404c5f;
+}
+.join-us-section .join-us-title-description {
+  margin-bottom: 67px;
+  font-size: 18px;
+  color: #a0aeb9;
+}
+.join-us-section .join-us-contents {
+  display: flex;
+  justify-content: space-between;
+}
+.join-us-section .join-us-contents .join-us-content-item {
+  width: 235px;
+  height: 243px;
+  background: #fff;
+}
+.join-us-section .join-us-contents .join-us-content-item .join-us-item {
+  margin: 0 auto;
+  width: 160px;
+  height: 160px;
+  background: #fff;
+}
+.join-us-section .join-us-contents .join-us-item-title {
+  font-size: 18px;
+  color: #3f464b;
+}
+.join-us-section .join-us-contents .join-us-description {
+  margin-top: 23px;
+  font-size: 16px;
+  color: #999;
+}
+.page-footer {
+  padding-top: 90px;
+  padding-bottom: 75px;
+  background: #1d1a33;
+}
+.page-footer .footer-container {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+}
+.page-footer .footer-container .footer-icon-container {
+  height: 31px;
+  margin-right: 164px;
+}
+.page-footer .footer-container .about-toppro-container {
+  width: 224px;
+  margin-right: 68px;
+}
+.page-footer .footer-container .about-toppro-container .about-toppro {
+  font-size: 15px;
+  color: #fff;
+}
+.page-footer .footer-container .about-toppro-container .little-block {
+  width: 33px;
+  height: 4px;
+  margin-top: 18px;
+  margin-bottom: 19px;
+  background: #282441;
+}
+.page-footer .footer-container .about-toppro-container .toppro-content {
+  font-size: 15px;
+  color: #b1b1b5;
+}
+.page-footer .footer-container .footer-nav {
+  display: flex;
+  flex-direction: column;
+  margin-right: 99px;
+}
+.page-footer .footer-container .footer-nav .footer-nav-link {
+  font-size: 15px;
+  color: #ffffff;
+}
+.page-footer .footer-container .footer-nav .small-block {
+  width: 14px;
+  height: 4px;
+  margin-top: 18px;
+  margin-bottom: 20px;
+  background: #282441;
+}
+.page-footer .footer-container .footer-nav .footer-nav-link-item {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #b1b1b5;
+}
+.page-footer .footer-container .touch-us-container .touch-us-link {
+  font-size: 15px;
+  color: #fff;
+}
+.page-footer .footer-container .touch-us-container .petty-block {
+  width: 33px;
+  height: 4px;
+  margin-top: 18px;
+  margin-bottom: 19px;
+  background: #282441;
+}
+.page-footer .footer-container .touch-us-container .tell-item {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #b1b1b5;
+}
+.page-footer .footer-container .touch-us-container .touch-icon-image {
+  margin-right: 16px;
 }

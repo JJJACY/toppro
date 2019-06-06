@@ -311,7 +311,7 @@
   font-size: 32px;
   color: #404c5f;
 }
-.join-us-section .join-us-title-description {
+.join-us-section .join-us-description {
   margin-bottom: 67px;
   font-size: 18px;
   color: #a0aeb9;
@@ -325,17 +325,17 @@
   height: 243px;
   background: #fff;
 }
-.join-us-section .join-us-contents .join-us-content-item .join-us-item {
+.join-us-section .join-us-contents .join-us-content-item .join-us-image {
   margin: 0 auto;
   width: 160px;
-  height: 160px;
+  height: 140px;
   background: #fff;
 }
 .join-us-section .join-us-contents .join-us-item-title {
   font-size: 18px;
   color: #3f464b;
 }
-.join-us-section .join-us-contents .join-us-description {
+.join-us-section .join-us-contents .join-item-description {
   margin-top: 23px;
   font-size: 16px;
   color: #999;
